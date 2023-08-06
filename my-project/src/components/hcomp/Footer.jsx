@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='pt-[100px] bg-[#F9EFE4] pl-[2rem]'>
         <img src={footerlogo} />
-    <div className='pt-[50px] grid grid-cols-6 pl-[2rem] pr-[2rem]'>
+    <div className="flex flex-col gap-4 pt-[10px] sm:grid grid-cols-6 sm:pr-[2rem] pl-[2rem] sm:pt-[50px]  ">
         <div className=''>
             <ul className='flex flex-col gap-4'>
                 <li>What its for</li>
@@ -76,7 +76,7 @@ const Footer = () => {
         <input className='mt-[20px] h-[70px]  rounded-full bg-transparent border-2 border-black w-[200px] p-6 " type="Email" name="E-mail" placeholder="name@company.com" ' />
         <Button
         text={""}
-        className={" w-20 h-20 rounded-full border-2 flex p-3  bg-[#176AE5] absolute top-[78px] left-[160px] "}
+        className={" w-20 h-20 rounded-full border-2 flex p-3  bg-[#176AE5] absolute top-[78px] left-[130px] "}
         />
         <p className='pt-[18px]' >100% homemade, no tricks or ponies or growth hacking nonsense. Just remote things we care about with a short surprising insight every week. No rush.</p>
       </div>

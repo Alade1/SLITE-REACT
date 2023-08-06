@@ -10,7 +10,7 @@ const Teams = () => {
     
      <div>
         <p className="pt-[30px] bg-[#F9EFE4] font-semibold text-center">200,000+ teams have found focus with Slite</p>
-    <div className=" bg-[#F9EFE4] flex  justify-around pt-[40px]">
+    <div className="bg-[#F9EFE4] pt-[40px] flex flex-col gap-7 pl-[20px] sm:flex-row justify-around">
         <img src={vandoo} alt="" />
         <img src={bamboohr} alt="" />
         <img src={agorapulse} alt=""/>

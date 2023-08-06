@@ -4,19 +4,21 @@ import cpo from '../../assets/images/cpo.png'
 const Ideas = () => {
   return (
     <div className="bg-[#F9EFE4] pt-[100px] relative">
+
         <p className=" text-[30px] text-center md:text-center text-[42px] font-[500]">Move ideas forward.</p>
         <p className="text-center text-[42px] font-[500]">Docs, meet Discussions.</p>
         <p className="w-[80%] ml-[auto] mr-[auto] mt-5 font-[500]">Decisions do not work on their own, and neither does your team. In Slite, decision-making and async discussion comes built-in, inside Docs. Say goodbye to scattered conversations and endless Slack threads.</p>
-
+        <div className="ml-[auto] mr-[auto]">
         <Button
         text={"I want that too"}
-        className={"md:bg-[#176AE5] text-[white] p-3 rounded-full w-[190px] mt-10 ml-[35rem]   "}
+        className={"bg-[#176AE5] text-[white] p-3 rounded-full w-[190px] mt-10 "}
         />
+        </div>
 
-        <div className= "bg-black  lg:bg-black w-[1200px] h-[400px] mt-[40px] ml-[auto] mr-[auto] relative">
+        <div className= "bg-black w-[400px] h-[400px] mt-[40px] ml-[30px] relative sm:w-[1200px] sm:ml-[auto] mr-[auto] ">
         <Button
         text={"PLAY"}
-        className={"bg-[#2F2F30] text-[white] p-3  w-[100PX] rounded-full absolute bottom-0 left-[550px]  "}
+        className={"bg-[#2F2F30] text-[white] rounded-full w-[100px] absolute bottom-0 left-[130px] mb-[20px] sm:absolute sm:left-[470px]  "}
         />
 
 
@@ -26,10 +28,11 @@ const Ideas = () => {
             <p className="italic pt-7 pb-7 pl-7 pr-7">Slite let us bring the two most important communication bits in the same place: documentation & decision-making. The connection between docs and discussions makes decision-making more efficient, transparent & contextualized.</p>
             <p className="text-[10px] font-[600] text-center pb-4"> SEBASTIAN GRENDAU</p>
             <p className="text-[10px] font-[400] text-center pb-4">CPO of AGORAPULSE</p>
-            <img className="absolute left-[500px] bottom-0 top-[150px] " src ={cpo} />
+            <img className=" hidden sm:block absolute left-[500px] bottom-0 top-[150px] " src ={cpo} />
         </div>
 
-        <div className="flex justify-around mt-[100px]">
+        <div className="flex flex-col justify-center gap-4 px-[30px] mt-4 sm:flex-row justify-around mt-[100px] ">
+
             <div className ="mt-0">
                 <p className="text-[42px] w-[60%]">A radical change at a fair price.</p>
                 <p className="w-[60%] pt-[10px] pb-6">Give Slite a try. Save 16% on annual commitment.Big team? check the enterprise plan.</p>
@@ -62,9 +65,10 @@ const Ideas = () => {
 
             </div>
             
-        </div>
+       
        
 
+    </div>
     </div>
   )
 }

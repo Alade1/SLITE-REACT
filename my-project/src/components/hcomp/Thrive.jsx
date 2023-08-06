@@ -7,7 +7,7 @@ const Thrive = () => {
         <p className="text-[20px] text-center mt-4">Create Space for teams to do their best work</p>
         <Button
         text={"Sign me up"}
-        className={"bg-[#176AE5] text-[white] p-3 rounded-full w-[190px] ml-[35rem] mt-11   "}
+        className={"bg-[#176AE5] text-[white] p-3 rounded-full w-[190px] ml-[9rem] mt-11 sm:ml-[35rem]  "}
         />
 
 

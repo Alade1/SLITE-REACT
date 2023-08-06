@@ -9,7 +9,7 @@ import ctoeight from '../../assets/images/ctonine.png'
 
 const Reviews = () => {
   return (
-    <div className="bg-[#F9EFE4] pt-[50px] grid grid-cols-3 gap-4 pl-[2rem]">
+    <div className="flex flex-col gap-4 pt-[20px] bg-[#F9EFE4] pl-[30px] sm:grid grid-cols-3 sm:pl-[2rem]  ">
         <div className="w-[400px] h-[270px] bg-white border-white rounded-md border-2">
             <p className="p-[30px]">`{"The most important thing in a wiki (in my opinion) is how tight the edit/ collaboration tool is. Most Wikis are pretty bad there. But Slite is an exampleof wiki that allows simultaneous editing "}`</p>
             <div className='flex justify-between'> 
